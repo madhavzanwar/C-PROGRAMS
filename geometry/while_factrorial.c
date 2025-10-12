@@ -9,7 +9,7 @@ while (i<=n)
    product *= i;
    i++;
 }
-printf("The factorial is %d",product);
+printf("The factorial of %d is %d",n ,product);
 
 return 0;
 }
