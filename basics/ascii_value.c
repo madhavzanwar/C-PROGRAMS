@@ -1,4 +1,8 @@
+
+//remembering ascii value
+
 #include <stdio.h>
+
 
 int main()
 {
