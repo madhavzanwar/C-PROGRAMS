@@ -24,5 +24,6 @@ int main(){
 
     printf("Address of num1 is %p \n", &num1);
     printf("Address of num2 is %p \n", &num2);
+    
     return 0;
 }
