@@ -11,6 +11,6 @@ int main(){
     printf("The address of marks[2] is %u \n", &marks[2]);
     printf("The address of marks[3] is %u \n", &marks[3]);
     printf("The address of marks[4] is %u \n", &marks[4]);
-
+  //we will see difference of 4 bytes because int takes 4 bytes in memory
     return 0;
 }
