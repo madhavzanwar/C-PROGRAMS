@@ -4,7 +4,7 @@
 int main() {
 
     //whats string functions?
-    //string functions are built-in functions in C that are used to manipulate and handle strings (
+    //string functions are built-in functions in C that are used to manipulate and handle strings.
 
     //strlen - to find length of string
     char str1[] = "Hello, World!";
