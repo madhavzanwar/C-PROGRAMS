@@ -34,6 +34,13 @@ int main() {
         printf("str5 is equal to str6\n");
     }
     
+    //it returns 0 if both strings are equal
+    //it returns a negative value if the first string is less than the second string
+    //it returns a positive value if the first string is greater than the second string
+    //ASCII values are used for comparison
     
+    strcmp("far", "joke"); //returns negative value because 'f' < 'j'
+    strcmp("joke", "far"); //returns positive value because 'j' > 'f'
+
     return 0;
 }

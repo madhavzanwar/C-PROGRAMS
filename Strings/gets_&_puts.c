@@ -5,6 +5,7 @@
 // gets() and puts() — specifically for strings
 
 #include <stdio.h>
+#include <string.h>
 
 int main() {
     char name[30];
@@ -20,3 +21,4 @@ int main() {
 //why not to use gets()?
 //gets() does not perform bounds checking and can lead to buffer overflows if the input exceeds the allocated size of the array.
 //fgets() is safer as it limits the number of characters read, preventing overflow.
+
