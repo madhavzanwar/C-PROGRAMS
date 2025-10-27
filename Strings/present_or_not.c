@@ -19,8 +19,5 @@ int main() {
         printf("The character '%c' is not present in the string \"%s\".\n", c, str);
     }
 
-   
-
-
     return 0;
 }
