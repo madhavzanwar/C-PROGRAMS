@@ -29,3 +29,8 @@ int main(){
     }
     
 }
+
+//arrow operator can also be used to access structure members using pointer
+//example: ptr->code = 100; instead of (*ptr).code = 100
+//This is just an alternative way to access structure members using pointer
+//Both ways are valid in C programming language.
