@@ -6,7 +6,7 @@
     int code;
     float salary;
     char name[10];
-    };
+    }; //; is mandatory here
 
 int main() {
 
