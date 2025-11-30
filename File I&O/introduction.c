@@ -6,6 +6,8 @@ int main(){
     fscanf(ptr, "%d", &num); //Read an integer from the file
     printf("The value of num is %d\n", num);
     fclose(ptr); //Close the file
+
+    return 0;
 }
 // "r" - open for reading
 // "w" - open for writing
